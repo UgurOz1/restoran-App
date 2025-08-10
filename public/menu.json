@@ -1,0 +1,15 @@
+[
+    { "id": "b1", "name": "Bruschetta", "category": "Başlangıç", "price": 95, "description": "Sarımsaklı ekmek üstü domates & fesleğen", "image": "/images/menu/bruschetta.jpg" },
+    { "id": "b2", "name": "Humus", "category": "Başlangıç", "price": 85, "description": "Nohut, tahin ve zeytinyağı", "image": "/images/menu/humus.jpeg" },
+    { "id": "a1", "name": "Sigara Böreği", "category": "Ara Sıcak", "price": 110, "description": "Beyaz peynirli çıtır börek", "image": "/images/menu/sigara_boregi.jpg" },
+    { "id": "a2", "name": "Paçanga Böreği", "category": "Ara Sıcak", "price": 135, "description": "Pastırma ve kaşarlı özel börek", "image": "/images/menu/pacanga_boregi.webp" },
+    { "id": "c1", "name": "Mercimek Çorbası", "category": "Çorba", "price": 80, "description": "Klasik mercimek, limon ile", "image": "/images/menu/mercimek_corbasi.webp" },
+    { "id": "c2", "name": "Ezogelin Çorbası", "category": "Çorba", "price": 85, "description": "Bulgur ve baharatlar", "image": "/images/menu/ezogelin_corbasi.jpeg" },
+    { "id": "m1", "name": "Izgara Köfte", "category": "Ana Yemek", "price": 195, "description": "Pirinç pilavı ve salata ile", "image": "/images/menu/izgara_kofte.jpg" },
+    { "id": "m2", "name": "Tavuk Şiş", "category": "Ana Yemek", "price": 185, "description": "Izgara sebze eşliğinde", "image": "/images/menu/tavuk_sis.jpg" },
+    { "id": "d1", "name": "Sufle", "category": "Tatlı", "price": 120, "description": "Akışkan çikolatalı", "image": "/images/menu/sufle.webp" },
+    { "id": "d2", "name": "Baklava", "category": "Tatlı", "price": 115, "description": "Fıstıklı dilim", "image": "/images/menu/baklava.jpg" },
+    { "id": "dr1", "name": "Ayran", "category": "İçecek", "price": 45, "description": "Soğuk ayran", "image": "/images/menu/ayran.jpg" },
+    { "id": "dr2", "name": "Gazoz", "category": "İçecek", "price": 50, "description": "Klasik", "image": "/images/menu/gazoz.jpg" }
+  ]
+  
