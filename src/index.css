@@ -11,6 +11,8 @@
 @layer base {
   html, body, #root { height: 100%; }
   body { @apply text-slate-900 antialiased; }
+  /* SPA: Vercel/Netlify gibi ortamlarda /admin hard refresh için 404 olmaması adına
+     prod dağıtımda rewrite gerekir. Dev sunucuda (Vite) otomatik çözülür. */
 }
 
 /* Dekoratif arka plan */

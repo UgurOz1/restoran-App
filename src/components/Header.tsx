@@ -3,7 +3,8 @@
   - Sol: Sepet ikon butonu (badge ile toplam adet)
   - Orta: Başlık
 */
-import { ShoppingCartIcon } from '@heroicons/react/24/outline'
+import { ShoppingCartIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { navigate } from '../utils/router'
 import { useCartStore, selectCount } from '../store/cart'
 
 export default function Header() {
@@ -26,7 +27,10 @@ export default function Header() {
           )}
         </button>
         <h1 className="text-lg font-semibold tracking-tight">Menü</h1>
-        <div className="w-10" />
+        <button onClick={() => navigate('/admin')} className="inline-flex h-10 px-3 items-center gap-2 rounded-xl border border-slate-200 bg-white/80 shadow-sm hover:shadow transition text-sm">
+          <LockClosedIcon className="h-4 w-4" />
+          Admin
+        </button>
       </div>
     </header>
   )

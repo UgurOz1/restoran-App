@@ -15,7 +15,7 @@ import CartDrawer from './components/CartDrawer'
 import Toaster from './components/Toaster'
 import Background from './components/Background'
 import type { MenuItem } from './types'
-import { fetchMenu } from './services/menu'
+import { loadMenu } from './services/menu'
 import autoAnimate from '@formkit/auto-animate'
 
 /**
@@ -33,11 +33,11 @@ function App() {
   // Grid elemanları değişirken kartların akıcı yer değiştirmesi için
   useEffect(() => { if (gridRef.current) autoAnimate(gridRef.current) }, [])
 
-  // Mock menüyü getir
+  // Menü verisini getir (localStorage override varsa onu kullanır)
   useEffect(() => {
     ;(async () => {
       try {
-        const data = await fetchMenu()
+        const data = await loadMenu()
         setItems(data)
       } catch (e: any) {
         setError(e?.message ?? 'Menü yüklenemedi')
